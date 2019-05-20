@@ -15,3 +15,6 @@ mkdir -p ~/.local/share/io.parity.ethereum/keys/DevelopmentChain
 chown -R travis:travis ~/.local/share/io.parity.ethereum
 echo $devwallet > ~/.local/share/io.parity.ethereum/keys/DevelopmentChain/UTC--2017-03-31T14-19-47Z--c05e3b8b-18aa-ab4f-c5ec-09f555bf5357
 echo $devpassword > ~/.devpass
+
+echo "devpass!!!!!!!"
+cat ~/.devpass
